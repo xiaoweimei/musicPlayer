@@ -1,0 +1,25 @@
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html, body{
+			height: 100%;
+			width: 100%;
+		}
+		body {
+			font: 16px/1.5 Arial;
+			padding-top: 200px;
+		}
+		a {
+			text-decoration: none;
+			color: #444; 
+		}
+		ul{
+			list-style-type: none;
+		}
+		body {
+			background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2404693929,2679000092&fm=26&gp=0.jpg)
+								no-repeat center center fixed;
+			background-size: cover;
+		}

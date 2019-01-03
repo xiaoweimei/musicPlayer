@@ -1,0 +1,52 @@
+.musicbox{
+	width: 400px;
+	height: 100px;
+	margin: 0px auto;
+	color:red;
+	background-color: #fff;
+	box-shadow:1px 1px 1px 1px rgba(0.1,0.1,0.1,0.9);
+	padding:20px 100px 5px 15px;
+}
+.musicbox .fa{
+	font-size: 20px;
+	cursor: pointer;
+}
+.progress{
+	cursor:pointer;
+}
+.musicbar{
+	margin-bottom: 5px;
+}
+.control{
+	float: left;
+	margin-top: 20px;
+}
+.information{
+	margin-left: 100px;
+}
+.information .author{
+	font-size: 15px;
+}
+li{
+	margin: 0 5px;
+}
+.bar{
+	position: relative;
+}
+.bar-back{
+	height: 3px;
+	background-color: #333;
+	border-radius: 1px;
+}
+.bar-now{
+	height: 3px;
+	background-color: #f00;
+	width: 10%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.time{
+	font-size: 15px;
+	float: right;
+}
